@@ -1,0 +1,89 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  background-color: #f1edf5;
+  margin: 0;
+  height: 100vh;
+  padding: 0;
+  width: 100vw;
+}
+
+body {
+  margin: 0;
+}
+
+.title {
+  padding-top: 20px;
+  margin: 0;
+}
+
+.taskNameCheck {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1rem;
+}
+
+/* End of Task Style */
+.task {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 5rem;
+  background-color: white;
+}
+
+.task-details {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  align-items: center;
+}
+
+.task-details p {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.task-details p span:first-child {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.task-details p input {
+  margin-left: 1rem;
+}
+.button {
+  background-color: #d39ddf;
+  padding: 0.5rem 1.5rem;
+  border-radius: 20px;
+}
+
+.removeButton {
+  background-color: #d39ddf;
+  padding: 0.5rem 1.5rem;
+  border-radius: 20px;
+  border: none;
+}
+
+/* End of Task Style */
+
+/* Form Style */
+.add label {
+  display: block;
+  margin: 1rem 0;
+}
+
+.add input {
+  margin-left: 1rem;
+}
+
+.button {
+  background-color: #d39ddf;
+  padding: 0.5rem 1.5rem;
+  border-radius: 20px;
+  border: none;
+}
+/* End of Form Style */
